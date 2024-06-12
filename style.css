@@ -19,9 +19,12 @@ body{
     align-items: center;
 }
 .line {
-    background-color: black;
+    background-color: rgb(145, 143, 143);
     width: 1px;
-    height: 20px;
+    height: 12px;
+}
+#line1{
+    margin: 0 1rem;
 }
 .Menu{
     display: flex;
@@ -30,4 +33,58 @@ body{
 .Menu a{
     color: black;
     text-decoration: none;
+}
+span{
+    color: white;
+    padding: 2px;
+    background-color: green;
+    font-size: 24;
+}
+button{
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3cm;
+    font-size: 10px;
+}
+.slim{
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+.sv{
+    display: flex;
+    justify-self: center;
+    gap: 0.5rem;
+}
+.svg{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+.menu2{
+    display: flex;
+    margin-left: 32rem;
+    gap: 2rem;
+    align-items: center;
+    font-size: 14px;
+}
+.silver{
+    /* display: flex; */
+    margin-left: 55rem;
+}
+.shop{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+.cent a{
+    display:flex ;
+    align-items: center;
+}
+a{
+    font-size: 12px;
 }
